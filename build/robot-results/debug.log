@@ -1,274 +1,602 @@
 ==============================================================================
-20180214 21:42:27.059 - INFO - + START SUITE: Acceptancetest [ ]
+20180218 12:02:16.341 - INFO - + START SUITE: Acceptancetest [ ]
 ==============================================================================
-20180214 21:42:27.087 - INFO - +- START SUITE: Acceptancetest.TicTacToeTests [ ]
+20180218 12:02:28.737 - INFO - +- START SUITE: Acceptancetest.TicTacToeGUITests [ ]
 ==============================================================================
-20180214 21:42:27.091 - INFO - +-- START TEST: Win Diagonally as X [ ]
+20180218 12:02:28.742 - INFO - +-- START TEST: Win Diagonally as X [ ]
 ------------------------------------------------------------------------------
-20180214 21:42:27.094 - INFO - +--- START KW: keywords.TicTacToeKeywords.Start New Game [ ]
-20180214 21:42:27.096 - INFO - +--- END KW: keywords.TicTacToeKeywords.Start New Game (2)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.107 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 1 | 1 ]
-20180214 21:42:27.112 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (14)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.113 - INFO - +--- START KW: Check Location [ 1 | 1 | X ]
-20180214 21:42:27.117 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20180214 21:42:27.121 - INFO - ${m} = X
-20180214 21:42:27.122 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (5)
-20180214 21:42:27.123 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20180214 21:42:27.126 - INFO - +---- END KW: BuiltIn.Should Be Equal (3)
-20180214 21:42:27.128 - INFO - +--- END KW: Check Location (15)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.129 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 0 | 1 ]
-20180214 21:42:27.132 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (2)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.136 - INFO - +--- START KW: Check Location [ 0 | 1 | O ]
-20180214 21:42:27.141 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20180214 21:42:27.145 - INFO - ${m} = O
-20180214 21:42:27.147 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (5)
-20180214 21:42:27.147 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20180214 21:42:27.150 - INFO - +---- END KW: BuiltIn.Should Be Equal (3)
-20180214 21:42:27.152 - INFO - +--- END KW: Check Location (18)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.152 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 0 | 0 ]
-20180214 21:42:27.155 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (3)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.156 - INFO - +--- START KW: Check Location [ 0 | 0 | X ]
-20180214 21:42:27.159 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20180214 21:42:27.163 - INFO - ${m} = X
-20180214 21:42:27.165 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (6)
-20180214 21:42:27.166 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20180214 21:42:27.169 - INFO - +---- END KW: BuiltIn.Should Be Equal (4)
-20180214 21:42:27.171 - INFO - +--- END KW: Check Location (15)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.172 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 0 | 2 ]
-20180214 21:42:27.174 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (2)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.175 - INFO - +--- START KW: Check Location [ 0 | 2 | O ]
-20180214 21:42:27.179 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20180214 21:42:27.186 - INFO - ${m} = O
-20180214 21:42:27.188 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (9)
-20180214 21:42:27.189 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20180214 21:42:27.193 - INFO - +---- END KW: BuiltIn.Should Be Equal (4)
-20180214 21:42:27.195 - INFO - +--- END KW: Check Location (20)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.196 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 2 | 2 ]
-20180214 21:42:27.199 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (3)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.200 - INFO - +--- START KW: Check Location [ 2 | 2 | X ]
-20180214 21:42:27.205 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20180214 21:42:27.210 - INFO - ${m} = X
-20180214 21:42:27.211 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (6)
-20180214 21:42:27.213 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20180214 21:42:27.218 - INFO - +---- END KW: BuiltIn.Should Be Equal (5)
-20180214 21:42:27.220 - INFO - +--- END KW: Check Location (19)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.222 - INFO - +--- START KW: Winner Should Be [ X ]
-20180214 21:42:27.225 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Winner [ ]
-20180214 21:42:27.228 - INFO - ${m} = X
-20180214 21:42:27.229 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Winner (4)
-20180214 21:42:27.230 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20180214 21:42:27.234 - INFO - +---- END KW: BuiltIn.Should Be Equal (3)
-20180214 21:42:27.235 - INFO - +--- END KW: Winner Should Be (14)
+20180218 12:02:28.745 - INFO - +--- START KW: Start New Game [ ]
+20180218 12:02:28.748 - INFO - +---- START KW: SwingLibrary.Start Application [ edu.jsu.mcis.TicTacToe ]
+20180218 12:02:34.448 - FAIL - RuntimeException
+20180218 12:02:34.454 - DEBUG - java.lang.RuntimeException
+	at org.robotframework.javalib.library.AnnotationLibrary.retrieveInnerException(AnnotationLibrary.java:148)
+	at org.robotframework.javalib.library.AnnotationLibrary.runKeyword(AnnotationLibrary.java:130)
+	at org.robotframework.swing.SwingLibrary.runKeyword(SwingLibrary.java:112)
+	at robot.model.testcase$py.visit$7(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testcase.py:73)
+	at robot.model.testcase$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testcase.py)
+	at robot.model.itemlist$py.visit$10(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py:68)
+	at robot.model.itemlist$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py)
+	at robot.model.visitor$py.visit_suite$2(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py:87)
+	at robot.model.visitor$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py)
+	at robot.model.testsuite$py.visit$19(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py:160)
+	at robot.model.testsuite$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py)
+	at robot.model.itemlist$py.visit$10(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py:68)
+	at robot.model.itemlist$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py)
+	at robot.model.visitor$py.visit_suite$2(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py:87)
+	at robot.model.visitor$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py)
+	at robot.model.testsuite$py.visit$19(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py:160)
+	at robot.model.testsuite$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py)
+	at robot.run$py.main$3(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py:441)
+	at robot.run$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py)
+	at robot.utils.application$py._execute$10(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py:91)
+	at robot.utils.application$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py)
+	at robot.utils.application$py.execute_cli$5(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py:46)
+	at robot.utils.application$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py)
+	at robot.run$py.run_cli$7(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py:466)
+	at robot.run$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py)
+	at robot.jarrunner$py._run$3(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py:63)
+	at robot.jarrunner$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py)
+	at robot.jarrunner$py.run$2(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py:56)
+	at robot.jarrunner$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py)
+	at org.robotframework.RobotRunner.run(RobotRunner.java:73)
+	at org.robotframework.RobotFramework.run(RobotFramework.java:60)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.invoke(StaticMetaMethodSite.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.call(StaticMetaMethodSite.java:91)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.roboscratch.gradle.RunRobot.run(RunRobot.groovy:184)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:46)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:788)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:755)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:124)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:113)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:95)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:73)
+	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
+	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:88)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:248)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:241)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:230)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:123)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:104)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:623)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:578)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.reflect.InvocationTargetException
+	at org.robotframework.swing.keyword.launch.ApplicationLaunchingKeywords.launchApplication(ApplicationLaunchingKeywords.java:34)
+	at org.robotframework.swing.keyword.launch.ApplicationLaunchingKeywords.startApplication(ApplicationLaunchingKeywords.java:41)
+	at org.robotframework.javalib.reflection.KeywordInvoker.invoke(KeywordInvoker.java:50)
+	at org.robotframework.javalib.beans.annotation.AnnotationKeywordExtractor$1.execute(AnnotationKeywordExtractor.java:62)
+	at org.robotframework.javalib.library.KeywordFactoryBasedLibrary.runKeyword(KeywordFactoryBasedLibrary.java:37)
+	at org.robotframework.javalib.library.AnnotationLibrary.runKeyword(AnnotationLibrary.java:128)
+	... 256 more
+Caused by: java.lang.NullPointerException
+	at edu.jsu.mcis.TicTacToeView.<init>(TicTacToeView.java:31)
+	at edu.jsu.mcis.TicTacToe.main(TicTacToe.java:31)
+	... 270 more
+20180218 12:02:34.463 - INFO - +---- END KW: SwingLibrary.Start Application (5712)
+20180218 12:02:34.470 - INFO - +--- END KW: Start New Game (5723)
 ------------------------------------------------------------------------------
-20180214 21:42:27.239 - INFO - +-- END TEST: Win Diagonally as X (147)
+20180218 12:02:34.477 - INFO - +-- END TEST: Win Diagonally as X (5732)
 ------------------------------------------------------------------------------
-20180214 21:42:27.241 - INFO - +-- START TEST: Win Horizontally as O [ ]
+20180218 12:02:34.480 - INFO - +-- START TEST: Win Horizontally as O [ ]
 ------------------------------------------------------------------------------
-20180214 21:42:27.245 - INFO - +--- START KW: keywords.TicTacToeKeywords.Start New Game [ ]
-20180214 21:42:27.249 - INFO - +--- END KW: keywords.TicTacToeKeywords.Start New Game (4)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.250 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 1 | 1 ]
-20180214 21:42:27.253 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (4)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.255 - INFO - +--- START KW: Check Location [ 1 | 1 | X ]
-20180214 21:42:27.258 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20180214 21:42:27.263 - INFO - ${m} = X
-20180214 21:42:27.264 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (6)
-20180214 21:42:27.266 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20180214 21:42:27.271 - INFO - +---- END KW: BuiltIn.Should Be Equal (5)
-20180214 21:42:27.274 - INFO - +--- END KW: Check Location (19)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.275 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 2 | 0 ]
-20180214 21:42:27.279 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (4)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.281 - INFO - +--- START KW: Check Location [ 2 | 0 | O ]
-20180214 21:42:27.285 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20180214 21:42:27.290 - INFO - ${m} = O
-20180214 21:42:27.291 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (5)
-20180214 21:42:27.291 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20180214 21:42:27.294 - INFO - +---- END KW: BuiltIn.Should Be Equal (2)
-20180214 21:42:27.295 - INFO - +--- END KW: Check Location (15)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.296 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 0 | 0 ]
-20180214 21:42:27.298 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (3)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.299 - INFO - +--- START KW: Check Location [ 0 | 0 | X ]
-20180214 21:42:27.302 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20180214 21:42:27.306 - INFO - ${m} = X
-20180214 21:42:27.308 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (5)
-20180214 21:42:27.309 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20180214 21:42:27.312 - INFO - +---- END KW: BuiltIn.Should Be Equal (2)
-20180214 21:42:27.313 - INFO - +--- END KW: Check Location (14)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.314 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 2 | 2 ]
-20180214 21:42:27.316 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (2)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.317 - INFO - +--- START KW: Check Location [ 2 | 2 | O ]
-20180214 21:42:27.320 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20180214 21:42:27.323 - INFO - ${m} = O
-20180214 21:42:27.324 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (3)
-20180214 21:42:27.324 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20180214 21:42:27.327 - INFO - +---- END KW: BuiltIn.Should Be Equal (3)
-20180214 21:42:27.329 - INFO - +--- END KW: Check Location (11)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.329 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 0 | 2 ]
-20180214 21:42:27.331 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (2)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.332 - INFO - +--- START KW: Check Location [ 0 | 2 | X ]
-20180214 21:42:27.334 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20180214 21:42:27.337 - INFO - ${m} = X
-20180214 21:42:27.338 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (4)
-20180214 21:42:27.339 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20180214 21:42:27.341 - INFO - +---- END KW: BuiltIn.Should Be Equal (3)
-20180214 21:42:27.342 - INFO - +--- END KW: Check Location (10)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.343 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 2 | 1 ]
-20180214 21:42:27.345 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (2)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.346 - INFO - +--- START KW: Check Location [ 2 | 1 | O ]
-20180214 21:42:27.348 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20180214 21:42:27.351 - INFO - ${m} = O
-20180214 21:42:27.351 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (3)
-20180214 21:42:27.352 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20180214 21:42:27.355 - INFO - +---- END KW: BuiltIn.Should Be Equal (2)
-20180214 21:42:27.356 - INFO - +--- END KW: Check Location (10)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.357 - INFO - +--- START KW: Winner Should Be [ O ]
-20180214 21:42:27.360 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Winner [ ]
-20180214 21:42:27.361 - INFO - ${m} = O
-20180214 21:42:27.363 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Winner (3)
-20180214 21:42:27.364 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20180214 21:42:27.367 - INFO - +---- END KW: BuiltIn.Should Be Equal (2)
-20180214 21:42:27.368 - INFO - +--- END KW: Winner Should Be (11)
+20180218 12:02:34.484 - INFO - +--- START KW: Start New Game [ ]
+20180218 12:02:34.487 - INFO - +---- START KW: SwingLibrary.Start Application [ edu.jsu.mcis.TicTacToe ]
+20180218 12:02:34.514 - FAIL - RuntimeException
+20180218 12:02:34.515 - DEBUG - java.lang.RuntimeException
+	at org.robotframework.javalib.library.AnnotationLibrary.retrieveInnerException(AnnotationLibrary.java:148)
+	at org.robotframework.javalib.library.AnnotationLibrary.runKeyword(AnnotationLibrary.java:130)
+	at org.robotframework.swing.SwingLibrary.runKeyword(SwingLibrary.java:112)
+	at robot.model.testcase$py.visit$7(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testcase.py:73)
+	at robot.model.testcase$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testcase.py)
+	at robot.model.itemlist$py.visit$10(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py:68)
+	at robot.model.itemlist$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py)
+	at robot.model.visitor$py.visit_suite$2(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py:87)
+	at robot.model.visitor$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py)
+	at robot.model.testsuite$py.visit$19(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py:160)
+	at robot.model.testsuite$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py)
+	at robot.model.itemlist$py.visit$10(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py:68)
+	at robot.model.itemlist$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py)
+	at robot.model.visitor$py.visit_suite$2(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py:87)
+	at robot.model.visitor$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py)
+	at robot.model.testsuite$py.visit$19(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py:160)
+	at robot.model.testsuite$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py)
+	at robot.run$py.main$3(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py:441)
+	at robot.run$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py)
+	at robot.utils.application$py._execute$10(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py:91)
+	at robot.utils.application$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py)
+	at robot.utils.application$py.execute_cli$5(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py:46)
+	at robot.utils.application$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py)
+	at robot.run$py.run_cli$7(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py:466)
+	at robot.run$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py)
+	at robot.jarrunner$py._run$3(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py:63)
+	at robot.jarrunner$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py)
+	at robot.jarrunner$py.run$2(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py:56)
+	at robot.jarrunner$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py)
+	at org.robotframework.RobotRunner.run(RobotRunner.java:73)
+	at org.robotframework.RobotFramework.run(RobotFramework.java:60)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.invoke(StaticMetaMethodSite.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.call(StaticMetaMethodSite.java:91)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.roboscratch.gradle.RunRobot.run(RunRobot.groovy:184)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:46)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:788)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:755)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:124)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:113)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:95)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:73)
+	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
+	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:88)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:248)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:241)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:230)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:123)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:104)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:623)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:578)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.reflect.InvocationTargetException
+	at org.robotframework.swing.keyword.launch.ApplicationLaunchingKeywords.launchApplication(ApplicationLaunchingKeywords.java:34)
+	at org.robotframework.swing.keyword.launch.ApplicationLaunchingKeywords.startApplication(ApplicationLaunchingKeywords.java:41)
+	at org.robotframework.javalib.reflection.KeywordInvoker.invoke(KeywordInvoker.java:50)
+	at org.robotframework.javalib.beans.annotation.AnnotationKeywordExtractor$1.execute(AnnotationKeywordExtractor.java:62)
+	at org.robotframework.javalib.library.KeywordFactoryBasedLibrary.runKeyword(KeywordFactoryBasedLibrary.java:37)
+	at org.robotframework.javalib.library.AnnotationLibrary.runKeyword(AnnotationLibrary.java:128)
+	... 256 more
+Caused by: java.lang.NullPointerException
+	at edu.jsu.mcis.TicTacToeView.<init>(TicTacToeView.java:31)
+	at edu.jsu.mcis.TicTacToe.main(TicTacToe.java:31)
+	... 270 more
+20180218 12:02:34.518 - INFO - +---- END KW: SwingLibrary.Start Application (30)
+20180218 12:02:34.521 - INFO - +--- END KW: Start New Game (37)
 ------------------------------------------------------------------------------
-20180214 21:42:27.370 - INFO - +-- END TEST: Win Horizontally as O (128)
+20180218 12:02:34.526 - INFO - +-- END TEST: Win Horizontally as O (45)
 ------------------------------------------------------------------------------
-20180214 21:42:27.373 - INFO - +-- START TEST: Force a Tie [ ]
+20180218 12:02:34.528 - INFO - +-- START TEST: Force a Tie [ ]
 ------------------------------------------------------------------------------
-20180214 21:42:27.377 - INFO - +--- START KW: keywords.TicTacToeKeywords.Start New Game [ ]
-20180214 21:42:27.381 - INFO - +--- END KW: keywords.TicTacToeKeywords.Start New Game (3)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.382 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 1 | 1 ]
-20180214 21:42:27.384 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (2)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.384 - INFO - +--- START KW: Check Location [ 1 | 1 | X ]
-20180214 21:42:27.387 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20180214 21:42:27.389 - INFO - ${m} = X
-20180214 21:42:27.391 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (4)
-20180214 21:42:27.392 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20180214 21:42:27.432 - INFO - +---- END KW: BuiltIn.Should Be Equal (38)
-20180214 21:42:27.433 - INFO - +--- END KW: Check Location (49)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.434 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 0 | 0 ]
-20180214 21:42:27.437 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (2)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.437 - INFO - +--- START KW: Check Location [ 0 | 0 | O ]
-20180214 21:42:27.440 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20180214 21:42:27.442 - INFO - ${m} = O
-20180214 21:42:27.443 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (4)
-20180214 21:42:27.444 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20180214 21:42:27.447 - INFO - +---- END KW: BuiltIn.Should Be Equal (2)
-20180214 21:42:27.448 - INFO - +--- END KW: Check Location (10)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.448 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 2 | 0 ]
-20180214 21:42:27.450 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (2)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.451 - INFO - +--- START KW: Check Location [ 2 | 0 | X ]
-20180214 21:42:27.453 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20180214 21:42:27.456 - INFO - ${m} = X
-20180214 21:42:27.457 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (3)
-20180214 21:42:27.457 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20180214 21:42:27.460 - INFO - +---- END KW: BuiltIn.Should Be Equal (3)
-20180214 21:42:27.462 - INFO - +--- END KW: Check Location (10)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.463 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 0 | 2 ]
-20180214 21:42:27.465 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (2)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.467 - INFO - +--- START KW: Check Location [ 0 | 2 | O ]
-20180214 21:42:27.469 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20180214 21:42:27.471 - INFO - ${m} = O
-20180214 21:42:27.472 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (3)
-20180214 21:42:27.473 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20180214 21:42:27.475 - INFO - +---- END KW: BuiltIn.Should Be Equal (2)
-20180214 21:42:27.476 - INFO - +--- END KW: Check Location (10)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.477 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 0 | 1 ]
-20180214 21:42:27.479 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (2)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.480 - INFO - +--- START KW: Check Location [ 0 | 1 | X ]
-20180214 21:42:27.482 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20180214 21:42:27.485 - INFO - ${m} = X
-20180214 21:42:27.486 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (4)
-20180214 21:42:27.487 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20180214 21:42:27.490 - INFO - +---- END KW: BuiltIn.Should Be Equal (2)
-20180214 21:42:27.491 - INFO - +--- END KW: Check Location (10)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.491 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 2 | 1 ]
-20180214 21:42:27.493 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (2)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.494 - INFO - +--- START KW: Check Location [ 2 | 1 | O ]
-20180214 21:42:27.496 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20180214 21:42:27.499 - INFO - ${m} = O
-20180214 21:42:27.499 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (3)
-20180214 21:42:27.501 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20180214 21:42:27.503 - INFO - +---- END KW: BuiltIn.Should Be Equal (3)
-20180214 21:42:27.504 - INFO - +--- END KW: Check Location (11)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.505 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 1 | 2 ]
-20180214 21:42:27.507 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (1)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.508 - INFO - +--- START KW: Check Location [ 1 | 2 | X ]
-20180214 21:42:27.509 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20180214 21:42:27.512 - INFO - ${m} = X
-20180214 21:42:27.513 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (3)
-20180214 21:42:27.513 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20180214 21:42:27.515 - INFO - +---- END KW: BuiltIn.Should Be Equal (2)
-20180214 21:42:27.516 - INFO - +--- END KW: Check Location (9)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.517 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 1 | 0 ]
-20180214 21:42:27.519 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (2)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.520 - INFO - +--- START KW: Check Location [ 1 | 0 | O ]
-20180214 21:42:27.522 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20180214 21:42:27.524 - INFO - ${m} = O
-20180214 21:42:27.525 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (2)
-20180214 21:42:27.525 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20180214 21:42:27.528 - INFO - +---- END KW: BuiltIn.Should Be Equal (2)
-20180214 21:42:27.529 - INFO - +--- END KW: Check Location (9)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.529 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 2 | 2 ]
-20180214 21:42:27.531 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (2)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.532 - INFO - +--- START KW: Check Location [ 2 | 2 | X ]
-20180214 21:42:27.534 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20180214 21:42:27.537 - INFO - ${m} = X
-20180214 21:42:27.538 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (4)
-20180214 21:42:27.539 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20180214 21:42:27.541 - INFO - +---- END KW: BuiltIn.Should Be Equal (2)
-20180214 21:42:27.542 - INFO - +--- END KW: Check Location (10)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20180214 21:42:27.543 - INFO - +--- START KW: Winner Should Be [ TIE ]
-20180214 21:42:27.545 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Winner [ ]
-20180214 21:42:27.546 - INFO - ${m} = TIE
-20180214 21:42:27.547 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Winner (2)
-20180214 21:42:27.548 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20180214 21:42:27.551 - INFO - +---- END KW: BuiltIn.Should Be Equal (3)
-20180214 21:42:27.552 - INFO - +--- END KW: Winner Should Be (9)
+20180218 12:02:34.532 - INFO - +--- START KW: Start New Game [ ]
+20180218 12:02:34.534 - INFO - +---- START KW: SwingLibrary.Start Application [ edu.jsu.mcis.TicTacToe ]
+20180218 12:02:34.547 - FAIL - RuntimeException
+20180218 12:02:34.548 - DEBUG - java.lang.RuntimeException
+	at org.robotframework.javalib.library.AnnotationLibrary.retrieveInnerException(AnnotationLibrary.java:148)
+	at org.robotframework.javalib.library.AnnotationLibrary.runKeyword(AnnotationLibrary.java:130)
+	at org.robotframework.swing.SwingLibrary.runKeyword(SwingLibrary.java:112)
+	at robot.model.testcase$py.visit$7(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testcase.py:73)
+	at robot.model.testcase$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testcase.py)
+	at robot.model.itemlist$py.visit$10(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py:68)
+	at robot.model.itemlist$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py)
+	at robot.model.visitor$py.visit_suite$2(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py:87)
+	at robot.model.visitor$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py)
+	at robot.model.testsuite$py.visit$19(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py:160)
+	at robot.model.testsuite$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py)
+	at robot.model.itemlist$py.visit$10(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py:68)
+	at robot.model.itemlist$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py)
+	at robot.model.visitor$py.visit_suite$2(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py:87)
+	at robot.model.visitor$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py)
+	at robot.model.testsuite$py.visit$19(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py:160)
+	at robot.model.testsuite$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py)
+	at robot.run$py.main$3(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py:441)
+	at robot.run$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py)
+	at robot.utils.application$py._execute$10(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py:91)
+	at robot.utils.application$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py)
+	at robot.utils.application$py.execute_cli$5(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py:46)
+	at robot.utils.application$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py)
+	at robot.run$py.run_cli$7(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py:466)
+	at robot.run$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py)
+	at robot.jarrunner$py._run$3(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py:63)
+	at robot.jarrunner$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py)
+	at robot.jarrunner$py.run$2(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py:56)
+	at robot.jarrunner$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py)
+	at org.robotframework.RobotRunner.run(RobotRunner.java:73)
+	at org.robotframework.RobotFramework.run(RobotFramework.java:60)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.invoke(StaticMetaMethodSite.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.call(StaticMetaMethodSite.java:91)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.roboscratch.gradle.RunRobot.run(RunRobot.groovy:184)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:46)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:788)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:755)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:124)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:113)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:95)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:73)
+	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
+	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:88)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:248)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:241)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:230)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:123)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:104)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:623)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:578)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.reflect.InvocationTargetException
+	at org.robotframework.swing.keyword.launch.ApplicationLaunchingKeywords.launchApplication(ApplicationLaunchingKeywords.java:34)
+	at org.robotframework.swing.keyword.launch.ApplicationLaunchingKeywords.startApplication(ApplicationLaunchingKeywords.java:41)
+	at org.robotframework.javalib.reflection.KeywordInvoker.invoke(KeywordInvoker.java:50)
+	at org.robotframework.javalib.beans.annotation.AnnotationKeywordExtractor$1.execute(AnnotationKeywordExtractor.java:62)
+	at org.robotframework.javalib.library.KeywordFactoryBasedLibrary.runKeyword(KeywordFactoryBasedLibrary.java:37)
+	at org.robotframework.javalib.library.AnnotationLibrary.runKeyword(AnnotationLibrary.java:128)
+	... 256 more
+Caused by: java.lang.NullPointerException
+	at edu.jsu.mcis.TicTacToeView.<init>(TicTacToeView.java:31)
+	at edu.jsu.mcis.TicTacToe.main(TicTacToe.java:31)
+	... 270 more
+20180218 12:02:34.550 - INFO - +---- END KW: SwingLibrary.Start Application (15)
+20180218 12:02:34.551 - INFO - +--- END KW: Start New Game (19)
 ------------------------------------------------------------------------------
-20180214 21:42:27.554 - INFO - +-- END TEST: Force a Tie (181)
+20180218 12:02:34.554 - INFO - +-- END TEST: Force a Tie (25)
 ------------------------------------------------------------------------------
-20180214 21:42:27.559 - INFO - +- END SUITE: Acceptancetest.TicTacToeTests (494)
+20180218 12:02:34.567 - INFO - +- END SUITE: Acceptancetest.TicTacToeGUITests (18210)
 ==============================================================================
-20180214 21:42:27.565 - INFO - + END SUITE: Acceptancetest (678)
+20180218 12:02:34.667 - INFO - +- START SUITE: Acceptancetest.TicTacToeTests [ ]
+==============================================================================
+20180218 12:02:34.674 - INFO - +-- START TEST: Win Diagonally as X [ ]
+------------------------------------------------------------------------------
+20180218 12:02:34.680 - INFO - +--- START KW: keywords.TicTacToeKeywords.Start New Game [ ]
+20180218 12:02:34.684 - INFO - +--- END KW: keywords.TicTacToeKeywords.Start New Game (3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:34.685 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 1 | 1 ]
+20180218 12:02:34.690 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (4)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:34.691 - INFO - +--- START KW: Check Location [ 1 | 1 | X ]
+20180218 12:02:34.695 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20180218 12:02:34.701 - INFO - ${m} = X
+20180218 12:02:34.703 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (7)
+20180218 12:02:34.704 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20180218 12:02:34.710 - INFO - +---- END KW: BuiltIn.Should Be Equal (5)
+20180218 12:02:34.711 - INFO - +--- END KW: Check Location (21)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:34.712 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 0 | 1 ]
+20180218 12:02:34.715 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (2)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:34.716 - INFO - +--- START KW: Check Location [ 0 | 1 | O ]
+20180218 12:02:34.718 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20180218 12:02:34.723 - INFO - ${m} = O
+20180218 12:02:34.724 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (6)
+20180218 12:02:34.725 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20180218 12:02:34.729 - INFO - +---- END KW: BuiltIn.Should Be Equal (3)
+20180218 12:02:34.730 - INFO - +--- END KW: Check Location (15)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:34.732 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 0 | 0 ]
+20180218 12:02:34.736 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (4)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:34.736 - INFO - +--- START KW: Check Location [ 0 | 0 | X ]
+20180218 12:02:34.739 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20180218 12:02:34.742 - INFO - ${m} = X
+20180218 12:02:34.744 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (4)
+20180218 12:02:34.744 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20180218 12:02:34.748 - INFO - +---- END KW: BuiltIn.Should Be Equal (3)
+20180218 12:02:34.750 - INFO - +--- END KW: Check Location (13)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:34.751 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 0 | 2 ]
+20180218 12:02:34.753 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:34.754 - INFO - +--- START KW: Check Location [ 0 | 2 | O ]
+20180218 12:02:34.757 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20180218 12:02:34.760 - INFO - ${m} = O
+20180218 12:02:34.761 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (4)
+20180218 12:02:34.762 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20180218 12:02:34.766 - INFO - +---- END KW: BuiltIn.Should Be Equal (3)
+20180218 12:02:34.767 - INFO - +--- END KW: Check Location (13)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:34.768 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 2 | 2 ]
+20180218 12:02:34.771 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:34.772 - INFO - +--- START KW: Check Location [ 2 | 2 | X ]
+20180218 12:02:34.775 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20180218 12:02:34.778 - INFO - ${m} = X
+20180218 12:02:34.779 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (4)
+20180218 12:02:34.780 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20180218 12:02:34.784 - INFO - +---- END KW: BuiltIn.Should Be Equal (4)
+20180218 12:02:34.786 - INFO - +--- END KW: Check Location (13)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:34.787 - INFO - +--- START KW: Winner Should Be [ X ]
+20180218 12:02:34.789 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Winner [ ]
+20180218 12:02:34.794 - INFO - ${m} = X
+20180218 12:02:34.823 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Winner (33)
+20180218 12:02:34.824 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20180218 12:02:34.830 - INFO - +---- END KW: BuiltIn.Should Be Equal (5)
+20180218 12:02:34.833 - INFO - +--- END KW: Winner Should Be (43)
+------------------------------------------------------------------------------
+20180218 12:02:34.836 - INFO - +-- END TEST: Win Diagonally as X (162)
+------------------------------------------------------------------------------
+20180218 12:02:34.837 - INFO - +-- START TEST: Win Horizontally as O [ ]
+------------------------------------------------------------------------------
+20180218 12:02:34.840 - INFO - +--- START KW: keywords.TicTacToeKeywords.Start New Game [ ]
+20180218 12:02:34.842 - INFO - +--- END KW: keywords.TicTacToeKeywords.Start New Game (3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:34.843 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 1 | 1 ]
+20180218 12:02:34.847 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:34.848 - INFO - +--- START KW: Check Location [ 1 | 1 | X ]
+20180218 12:02:34.852 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20180218 12:02:34.855 - INFO - ${m} = X
+20180218 12:02:34.856 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (4)
+20180218 12:02:34.857 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20180218 12:02:34.860 - INFO - +---- END KW: BuiltIn.Should Be Equal (2)
+20180218 12:02:34.862 - INFO - +--- END KW: Check Location (14)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:34.862 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 2 | 0 ]
+20180218 12:02:34.865 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:34.866 - INFO - +--- START KW: Check Location [ 2 | 0 | O ]
+20180218 12:02:34.869 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20180218 12:02:34.872 - INFO - ${m} = O
+20180218 12:02:34.873 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (4)
+20180218 12:02:34.874 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20180218 12:02:34.877 - INFO - +---- END KW: BuiltIn.Should Be Equal (3)
+20180218 12:02:34.878 - INFO - +--- END KW: Check Location (12)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:34.879 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 0 | 0 ]
+20180218 12:02:34.882 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (2)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:34.883 - INFO - +--- START KW: Check Location [ 0 | 0 | X ]
+20180218 12:02:34.885 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20180218 12:02:34.888 - INFO - ${m} = X
+20180218 12:02:34.890 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (4)
+20180218 12:02:34.890 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20180218 12:02:34.893 - INFO - +---- END KW: BuiltIn.Should Be Equal (3)
+20180218 12:02:34.895 - INFO - +--- END KW: Check Location (12)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:34.895 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 2 | 2 ]
+20180218 12:02:34.898 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:34.899 - INFO - +--- START KW: Check Location [ 2 | 2 | O ]
+20180218 12:02:34.901 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20180218 12:02:34.904 - INFO - ${m} = O
+20180218 12:02:34.906 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (4)
+20180218 12:02:34.906 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20180218 12:02:34.909 - INFO - +---- END KW: BuiltIn.Should Be Equal (3)
+20180218 12:02:34.911 - INFO - +--- END KW: Check Location (11)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:34.912 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 0 | 2 ]
+20180218 12:02:34.914 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:34.915 - INFO - +--- START KW: Check Location [ 0 | 2 | X ]
+20180218 12:02:34.918 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20180218 12:02:34.921 - INFO - ${m} = X
+20180218 12:02:34.922 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (4)
+20180218 12:02:34.923 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20180218 12:02:34.926 - INFO - +---- END KW: BuiltIn.Should Be Equal (3)
+20180218 12:02:34.928 - INFO - +--- END KW: Check Location (12)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:34.929 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 2 | 1 ]
+20180218 12:02:34.932 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (2)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:34.933 - INFO - +--- START KW: Check Location [ 2 | 1 | O ]
+20180218 12:02:34.935 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20180218 12:02:34.938 - INFO - ${m} = O
+20180218 12:02:34.939 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (4)
+20180218 12:02:34.940 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20180218 12:02:34.943 - INFO - +---- END KW: BuiltIn.Should Be Equal (3)
+20180218 12:02:34.944 - INFO - +--- END KW: Check Location (12)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:34.945 - INFO - +--- START KW: Winner Should Be [ O ]
+20180218 12:02:34.947 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Winner [ ]
+20180218 12:02:34.950 - INFO - ${m} = O
+20180218 12:02:34.951 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Winner (4)
+20180218 12:02:34.957 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20180218 12:02:34.960 - INFO - +---- END KW: BuiltIn.Should Be Equal (2)
+20180218 12:02:34.961 - INFO - +--- END KW: Winner Should Be (16)
+------------------------------------------------------------------------------
+20180218 12:02:34.963 - INFO - +-- END TEST: Win Horizontally as O (125)
+------------------------------------------------------------------------------
+20180218 12:02:34.965 - INFO - +-- START TEST: Force a Tie [ ]
+------------------------------------------------------------------------------
+20180218 12:02:34.970 - INFO - +--- START KW: keywords.TicTacToeKeywords.Start New Game [ ]
+20180218 12:02:34.972 - INFO - +--- END KW: keywords.TicTacToeKeywords.Start New Game (3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:34.973 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 1 | 1 ]
+20180218 12:02:34.977 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:34.977 - INFO - +--- START KW: Check Location [ 1 | 1 | X ]
+20180218 12:02:34.980 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20180218 12:02:34.983 - INFO - ${m} = X
+20180218 12:02:34.984 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (3)
+20180218 12:02:34.984 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20180218 12:02:34.989 - INFO - +---- END KW: BuiltIn.Should Be Equal (4)
+20180218 12:02:34.991 - INFO - +--- END KW: Check Location (13)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:34.991 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 0 | 0 ]
+20180218 12:02:34.994 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (2)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:34.995 - INFO - +--- START KW: Check Location [ 0 | 0 | O ]
+20180218 12:02:34.997 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20180218 12:02:34.999 - INFO - ${m} = O
+20180218 12:02:35.001 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (3)
+20180218 12:02:35.002 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20180218 12:02:35.004 - INFO - +---- END KW: BuiltIn.Should Be Equal (3)
+20180218 12:02:35.006 - INFO - +--- END KW: Check Location (11)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:35.006 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 2 | 0 ]
+20180218 12:02:35.008 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (2)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:35.009 - INFO - +--- START KW: Check Location [ 2 | 0 | X ]
+20180218 12:02:35.011 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20180218 12:02:35.014 - INFO - ${m} = X
+20180218 12:02:35.015 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (3)
+20180218 12:02:35.015 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20180218 12:02:35.018 - INFO - +---- END KW: BuiltIn.Should Be Equal (2)
+20180218 12:02:35.020 - INFO - +--- END KW: Check Location (10)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:35.021 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 0 | 2 ]
+20180218 12:02:35.023 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:35.024 - INFO - +--- START KW: Check Location [ 0 | 2 | O ]
+20180218 12:02:35.026 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20180218 12:02:35.028 - INFO - ${m} = O
+20180218 12:02:35.029 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (3)
+20180218 12:02:35.030 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20180218 12:02:35.035 - INFO - +---- END KW: BuiltIn.Should Be Equal (4)
+20180218 12:02:35.036 - INFO - +--- END KW: Check Location (12)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:35.037 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 0 | 1 ]
+20180218 12:02:35.039 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (2)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:35.040 - INFO - +--- START KW: Check Location [ 0 | 1 | X ]
+20180218 12:02:35.042 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20180218 12:02:35.046 - INFO - ${m} = X
+20180218 12:02:35.047 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (4)
+20180218 12:02:35.047 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20180218 12:02:35.051 - INFO - +---- END KW: BuiltIn.Should Be Equal (4)
+20180218 12:02:35.052 - INFO - +--- END KW: Check Location (12)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:35.053 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 2 | 1 ]
+20180218 12:02:35.055 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (2)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:35.056 - INFO - +--- START KW: Check Location [ 2 | 1 | O ]
+20180218 12:02:35.059 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20180218 12:02:35.061 - INFO - ${m} = O
+20180218 12:02:35.062 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (4)
+20180218 12:02:35.063 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20180218 12:02:35.066 - INFO - +---- END KW: BuiltIn.Should Be Equal (3)
+20180218 12:02:35.067 - INFO - +--- END KW: Check Location (11)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:35.068 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 1 | 2 ]
+20180218 12:02:35.070 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (2)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:35.071 - INFO - +--- START KW: Check Location [ 1 | 2 | X ]
+20180218 12:02:35.073 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20180218 12:02:35.076 - INFO - ${m} = X
+20180218 12:02:35.077 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (4)
+20180218 12:02:35.078 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20180218 12:02:35.080 - INFO - +---- END KW: BuiltIn.Should Be Equal (2)
+20180218 12:02:35.081 - INFO - +--- END KW: Check Location (10)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:35.082 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 1 | 0 ]
+20180218 12:02:35.084 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (2)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:35.085 - INFO - +--- START KW: Check Location [ 1 | 0 | O ]
+20180218 12:02:35.088 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20180218 12:02:35.090 - INFO - ${m} = O
+20180218 12:02:35.091 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (3)
+20180218 12:02:35.091 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20180218 12:02:35.094 - INFO - +---- END KW: BuiltIn.Should Be Equal (3)
+20180218 12:02:35.095 - INFO - +--- END KW: Check Location (10)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:35.096 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 2 | 2 ]
+20180218 12:02:35.098 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (1)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:35.099 - INFO - +--- START KW: Check Location [ 2 | 2 | X ]
+20180218 12:02:35.101 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20180218 12:02:35.103 - INFO - ${m} = X
+20180218 12:02:35.104 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (3)
+20180218 12:02:35.105 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20180218 12:02:35.107 - INFO - +---- END KW: BuiltIn.Should Be Equal (2)
+20180218 12:02:35.109 - INFO - +--- END KW: Check Location (10)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20180218 12:02:35.109 - INFO - +--- START KW: Winner Should Be [ TIE ]
+20180218 12:02:35.112 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Winner [ ]
+20180218 12:02:35.113 - INFO - ${m} = TIE
+20180218 12:02:35.114 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Winner (3)
+20180218 12:02:35.115 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20180218 12:02:35.118 - INFO - +---- END KW: BuiltIn.Should Be Equal (3)
+20180218 12:02:35.119 - INFO - +--- END KW: Winner Should Be (10)
+------------------------------------------------------------------------------
+20180218 12:02:35.122 - INFO - +-- END TEST: Force a Tie (156)
+------------------------------------------------------------------------------
+20180218 12:02:35.136 - INFO - +- END SUITE: Acceptancetest.TicTacToeTests (558)
+==============================================================================
+20180218 12:02:35.152 - INFO - + END SUITE: Acceptancetest (19190)
 ==============================================================================

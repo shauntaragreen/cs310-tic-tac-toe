@@ -1,86 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>TicTacToeView.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">cs310-tic-tac-toe</a> &gt; <a href="index.source.html" class="el_package">edu.jsu.mcis</a> &gt; <span class="el_source">TicTacToeView.java</span></div><h1>TicTacToeView.java</h1><pre class="source lang-java linenums">package edu.jsu.mcis;
 
-public class TicTacToeView {
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
 
-    private TicTacToeModel model;
-    
+
+public class TicTacToeView extends JPanel implements ActionListener {
+	
+	
     /* CONSTRUCTOR */
+	TicTacToeModel model;
 	
-<span class="fc" id="L9">    public TicTacToeView(TicTacToeModel model) {</span>
-        
-<span class="fc" id="L11">        this.model = model;</span>
-        
-<span class="fc" id="L13">    }</span>
-	
-    public void viewModel() {
-        
-        /* Print the board to the console (see examples) */
-        
-        /* INSERT YOUR CODE HERE */
-<span class="fc" id="L20">		System.out.print(&quot;\n&quot; + &quot;  &quot;);</span>
-
-
-<span class="fc bfc" id="L23" title="All 2 branches covered.">       for(int i = 0; i &lt; model.getWidth(); i++){</span>
-
-<span class="fc" id="L25">		   System.out.print(i);</span>
-
-	   }
-
-<span class="fc" id="L29">	   System.out.print(&quot;\n\n&quot;);</span>
-
-<span class="fc bfc" id="L31" title="All 2 branches covered.">	   for(int i = 0; i &lt; model.getWidth(); i++){</span>
-
-<span class="fc" id="L33">			System.out.print(i + &quot; &quot;);</span>
-
-<span class="fc bfc" id="L35" title="All 2 branches covered.">			for(int j = 0; j &lt; model.getWidth(); j++){</span>
-
-<span class="fc" id="L37">				System.out.print(model.getMark(i, j));</span>
-
-<span class="fc bfc" id="L39" title="All 2 branches covered.">				if(j == (model.getWidth()-1) ){</span>
-
-<span class="fc" id="L41">						System.out.print(&quot;\n&quot;);</span>
-
-				}
-
+		private JPanel squaresPanel;
+		private JButton[][] grid;
+		private JButton[][] squares;
+		private JPanel panel;
+		private JLabel resultLabel;
+		private JPanel container;
+		
+<span class="nc" id="L21">    public TicTacToeView(TicTacToeModel model) {</span>
+		
+<span class="nc" id="L23">		this.model = model;</span>
+<span class="nc" id="L24">		int width = model.getWidth();</span>
+		
+<span class="nc" id="L26">        this.setLayout(new BoxLayout(this, BoxLayout.PAGE_AXIS));</span>
+<span class="nc" id="L27">		this.squares = new JButton[model.getWidth()][model.getWidth()];</span>
+<span class="nc" id="L28">		this.squaresPanel = new JPanel (new GridLayout(width,width));</span>
+<span class="nc" id="L29">		this.resultLabel = new JLabel();</span>
+<span class="nc" id="L30">		this.resultLabel.setName(&quot;ResultLabel&quot;);</span>
+<span class="nc" id="L31">		this.container.setLayout(new BoxLayout(container, BoxLayout.Y_AXIS));</span>
+<span class="nc" id="L32">		grid = new JButton[3][3];</span>
+    
+		//* loop through every row and col *//
+		
+<span class="nc bnc" id="L36" title="All 2 branches missed.">		for (int x = 0; x &lt; width; x++) {</span>
+<span class="nc bnc" id="L37" title="All 2 branches missed.">			for (int y =0; y &lt; width; y++) {</span>
+<span class="nc" id="L38">				this.squares[x][y] = new JButton();</span>
+<span class="nc" id="L39">				this.squares[x][y].addActionListener(this);</span>
+<span class="nc" id="L40">				this.squares[x][y].setName(&quot;Square&quot; + x + y);</span>
+<span class="nc" id="L41">				this.squares[x][y].setPreferredSize(new Dimension(64, 64));</span>
+<span class="nc" id="L42">				this.squaresPanel.add(squares[x][y]);</span>
+				
+				
+				//* finish initializing JButton; add to JPanel *//
+				
 			}
-
 		}
+<span class="nc" id="L49">		add(squaresPanel);</span>
+<span class="nc" id="L50">		add(resultLabel);</span>
+<span class="nc" id="L51">		resultLabel.setText(&quot;Welcome to the game Tic-Tac-Toe!&quot;);</span>
 
-<span class="fc" id="L49">		System.out.println(&quot;\n&quot;);</span>
+<span class="nc" id="L53">	}</span>
+	
+	@Override
+	public void actionPerformed(ActionEvent event){
 
-<span class="fc" id="L51">    }</span>
+<span class="nc" id="L58">		 String name = ((JButton) event.getSource()).getName();</span>
 
+
+        int row;
+        int col;
+
+<span class="nc" id="L64">        row = Character.getNumericValue(name.charAt(6));</span>
+<span class="nc" id="L65">        col = Character.getNumericValue(name.charAt(7));</span>
+
+<span class="nc" id="L67">        model.makeMark(row, col);</span>
+		 
+<span class="nc" id="L69">		updateSquares();</span>
+<span class="nc" id="L70">		showResult(&quot; &quot;);</span>
+		
+<span class="nc bnc" id="L72" title="All 2 branches missed.">		if (model.isGameover()){</span>
+<span class="nc" id="L73">				showResult(model.getResult().toString());</span>
+<span class="nc bnc" id="L74" title="All 2 branches missed.">				for (int x=0; x&lt;model.getWidth(); x++){</span>
+<span class="nc bnc" id="L75" title="All 2 branches missed.">					for (int y=0; y&lt;model.getWidth(); y++){</span>
+<span class="nc" id="L76">						squares[x][y].setEnabled(false);</span>
+                }
+            }
+        }
+<span class="nc" id="L80">	}</span>
+	
+	public void updateSquares() {
+
+<span class="nc bnc" id="L84" title="All 2 branches missed.">        for (int x=0; x&lt;model.getWidth(); x++){</span>
+<span class="nc bnc" id="L85" title="All 2 branches missed.">            for (int y=0; y&lt;model.getWidth(); y++){</span>
+<span class="nc" id="L86">                squares[x][y].setText(model.getMark(x, y).toString());</span>
+            }
+        }
+<span class="nc" id="L89">    }</span>
+
+	
+	public static void main(String[] args) {
+<span class="nc" id="L93">        JFrame window = new JFrame(&quot;Tic-Tac-Toe&quot;);</span>
+<span class="nc" id="L94">        window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);</span>
+<span class="nc" id="L95">        window.setVisible(true);</span>
+        //WINDOW CLOSES
+<span class="nc" id="L97">    }</span>
+	
     public void showNextMovePrompt() {
-
         /* Display a prompt for the player's next move (see examples) */
-
+		
         /* INSERT YOUR CODE HERE */
-<span class="nc bnc" id="L58" title="All 2 branches missed.">		if (model.isXTurn()) {</span>
-<span class="nc" id="L59">			System.out.println(&quot;Player X Turn:\n&quot; + &quot;Enter the row and column number, separated by a space.&quot;);</span>
+<span class="nc bnc" id="L103" title="All 2 branches missed.">		if (model.isXTurn()) {</span>
+<span class="nc" id="L104">			System.out.println(&quot;Player X Turn:\n&quot; + &quot;Enter the row and column number, separated by a space.&quot;);</span>
 		}
 		
 			else {
-<span class="nc" id="L63">				System.out.println(&quot;Player O Turn:\n&quot; + &quot;Enter the roe and column number, separated by a space.&quot;);</span>
+<span class="nc" id="L108">				System.out.println(&quot;Player O Turn:\n&quot; + &quot;Enter the roe and column number, separated by a space.&quot;);</span>
 			}
 
-<span class="nc" id="L66">    }</span>
+<span class="nc" id="L111">    }</span>
 
     public void showInputError() {
 
         /* Display an error if input is invalid (see examples) */
-
         /* INSERT YOUR CODE HERE */
-<span class="nc" id="L73">		System.out.println(&quot;Invalid Input!&quot;);</span>
-
-<span class="nc" id="L75">    }</span>
-
-    public void showResult(String r) {
+<span class="nc" id="L117">		System.out.println(&quot;Invalid Input!&quot;);</span>
+	
+<span class="nc" id="L119">    }</span>
+       
+        
+    public static void showResult(String r) {
 
         /* Display final winner */
 
-<span class="nc" id="L81">        System.out.println(r + &quot;!&quot;);</span>
+<span class="nc" id="L126">        System.out.println(r + &quot;!&quot;);</span>
 
-<span class="nc" id="L83">    }</span>
-	
+<span class="nc" id="L128">    }</span>
+
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.7.9.201702052155</span></div></body></html>
